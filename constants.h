@@ -1,7 +1,7 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-#define PNG_PATH 		"C:\\example.png"
+#define PNG_PATH 		"test\\example.png"
 #define LEN_PNGSIG		8
 #define LEN_CKLENGTH	4
 #define LEN_CKTYPE		4
