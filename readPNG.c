@@ -53,7 +53,7 @@ void readPNG(char* path, int verbose) {
 	fclose(file);
 
 	printf("\t----\nfile-path=%s\n", path);
-	printf("file-size=%d bytes\n", lSize);
+	printf("file-size=%ld bytes\n", lSize);
 	processPNG(buffer, lSize, verbose);
 
 	free(buffer);
