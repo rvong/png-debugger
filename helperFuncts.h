@@ -10,7 +10,7 @@
  long getNum(unsigned char* a, int start, int size) {
 	unsigned long result = 0, shift = 8 * (size - 1);
 	for (unsigned long i = start; i < start + size; i++) {
-		result |= a[i] << shift;
+		result |= (unsigned long)a[i] << shift;
 		shift -= 8;
 	}
 	return result;
